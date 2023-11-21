@@ -15,7 +15,7 @@ C:/Users/rapha/Documents/Projet lab 2/23-24.FR.M.S1_ProjetRaph/Projet lab 2
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52953
+51304
 Successfully changed project path to: C:/Users/rapha/Documents/Projet lab 2/23-24.FR.M.S1_ProjetRaph/Projet lab 2
 C:/Users/rapha/Documents/Projet lab 2/23-24.FR.M.S1_ProjetRaph/Projet lab 2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/rapha/Documents/Projet lab 2/23-24.FR.M.S1_ProjetRaph/Projet lab 2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 79.73 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 82.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.5f1 (4ec9a5e799f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007099 seconds.
+Registered in 0.007442 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.51 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 80.85 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.551 seconds
+- Completed reload, in  0.660 seconds
 Domain Reload Profiling:
-	ReloadAssembly (551ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (661ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (413ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (528ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (89ms)
+			SetupTypeCache (86ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (251ms)
+			SetupLoadedEditorAssemblies (352ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
+				RefreshPlugins (81ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (120ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007671 seconds.
+Registered in 0.020193 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rapha\Documents\Projet lab 2\23-24.FR.M.S1_ProjetRaph\Projet lab 2\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\rapha\Documents\Projet lab 2\23-24.FR.M.S1_ProjetRaph\Projet lab 2\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 77.86 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 84.30 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.484 seconds
+- Completed reload, in  1.795 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1484ms)
-		BeginReloadAssembly (145ms)
+	ReloadAssembly (1796ms)
+		BeginReloadAssembly (213ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1254ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1478ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (198ms)
+			SetupTypeCache (267ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (850ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (944ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (640ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (693ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3898 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 43 unused Assets / (225.4 KB). Loaded Objects now: 4347.
-Memory consumption went from 151.0 MB to 150.8 MB.
-Total: 2.989700 ms (FindLiveObjects: 0.299200 ms CreateObjectMapping: 0.265300 ms MarkObjects: 2.302300 ms  DeleteObjects: 0.122100 ms)
+Unloading 3899 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (225.3 KB). Loaded Objects now: 4348.
+Memory consumption went from 151.1 MB to 150.8 MB.
+Total: 3.207900 ms (FindLiveObjects: 0.348700 ms CreateObjectMapping: 0.299600 ms MarkObjects: 2.425800 ms  DeleteObjects: 0.133100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -157,319 +157,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 294660.822534 seconds.
-  path: Assets/LUCAS/Blackthornprod
-  artifactKey: Guid(9eecfc55e5754b84caa5b578722d1b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod using Guid(9eecfc55e5754b84caa5b578722d1b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c011da3c3feea537e9b34713a76d4a7') in 0.011313 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.402957 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Sprites/characters.png
-  artifactKey: Guid(0c1e734fa85636743af3bc22c6d99ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Sprites/characters.png using Guid(0c1e734fa85636743af3bc22c6d99ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f06750696a33a486943ca45eab16182') in 0.937781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.278572 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (2).prefab
-  artifactKey: Guid(0e280cd4ce521994eb618b6731c6a2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (2).prefab using Guid(0e280cd4ce521994eb618b6731c6a2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8266ff0efc87e8e36aa00f47db5226') in 0.094560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (68).prefab
-  artifactKey: Guid(416ee64c39cd4ea4bb8dcfb882e5aa04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (68).prefab using Guid(416ee64c39cd4ea4bb8dcfb882e5aa04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2d57774ca73f6b5a8c03168f4d6e72') in 0.074151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (53).prefab
-  artifactKey: Guid(108c51af55bb592499f571c46a6355f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (53).prefab using Guid(108c51af55bb592499f571c46a6355f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f87566f3c5b742a64f846259c7dc86') in 0.077287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (69).prefab
-  artifactKey: Guid(20b27d1883adb2247b53f1c3950a6d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (69).prefab using Guid(20b27d1883adb2247b53f1c3950a6d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fedf9c56ff3b2845f5d2c440f13817f') in 0.092428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (6).prefab
-  artifactKey: Guid(108430a325e08c14a980d8c5955d7732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (6).prefab using Guid(108430a325e08c14a980d8c5955d7732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f98a90fa771bce39d3e5fb3949ce34') in 0.092824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (74).prefab
-  artifactKey: Guid(48933110da450ee41b6459f9294b78ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (74).prefab using Guid(48933110da450ee41b6459f9294b78ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759d2dcba4f5e602aa6cb7f32d6bb79b') in 0.091021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (41).prefab
-  artifactKey: Guid(e24c9a1a4fb8a7f45bf6ac000b47ec8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (41).prefab using Guid(e24c9a1a4fb8a7f45bf6ac000b47ec8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31311c553dcd8466c0da3fface57bb26') in 0.087986 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (51).prefab
-  artifactKey: Guid(7661e6f100a621140b411ebb597bf16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (51).prefab using Guid(7661e6f100a621140b411ebb597bf16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46663eed976cd822cc272abcc1e59f82') in 0.077713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (43).prefab
-  artifactKey: Guid(736cfbc1aa82a4f44800507aed51fe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (43).prefab using Guid(736cfbc1aa82a4f44800507aed51fe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ed2b95201ee0f5be89f447b74266e8') in 0.082029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (9).prefab
-  artifactKey: Guid(361981530247ec54bb679f89e208d82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (9).prefab using Guid(361981530247ec54bb679f89e208d82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ab0a3327f04d0fa70d3f4c86c560f8') in 0.078329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (16).prefab
-  artifactKey: Guid(6ac1eb95fbced6e48acd22a849a47c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (16).prefab using Guid(6ac1eb95fbced6e48acd22a849a47c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3387a65117ec09eff1460d69f39e30d2') in 0.089785 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (72).prefab
-  artifactKey: Guid(60971e65992a3114cae30464ec7fbc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (72).prefab using Guid(60971e65992a3114cae30464ec7fbc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd065faff64cbf4aac09ac05a8dc076d') in 0.077245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (35).prefab
-  artifactKey: Guid(39385abaa1419dd49a82630f158c9b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (35).prefab using Guid(39385abaa1419dd49a82630f158c9b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645c9b4aae3bd4d985990bd91c9d276c') in 0.068172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (33).prefab
-  artifactKey: Guid(a1102dd48e9fe5f4ab6632d22b3a3682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (33).prefab using Guid(a1102dd48e9fe5f4ab6632d22b3a3682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8f4986c1e90a38a40b51f748e4bd29') in 0.079108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (57).prefab
-  artifactKey: Guid(e4dae70aa69c399419e95fb718e60ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (57).prefab using Guid(e4dae70aa69c399419e95fb718e60ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c17f6d55c4e44beb72428846acb180') in 0.076081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (34).prefab
-  artifactKey: Guid(0db0fd3c61b5a7f4d9cc86d9dd2e7ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (34).prefab using Guid(0db0fd3c61b5a7f4d9cc86d9dd2e7ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92057f09df22776787a9dcd089f11dad') in 0.079353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (50).prefab
-  artifactKey: Guid(db148d9ce685ac348a3f357d37453baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (50).prefab using Guid(db148d9ce685ac348a3f357d37453baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c07fe15259484280a263bc99829f3c') in 0.078956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (59).prefab
-  artifactKey: Guid(79ec2be95a5ca5c499f466271432196c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (59).prefab using Guid(79ec2be95a5ca5c499f466271432196c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258cf8d0563c0e13159a38d6099df29d') in 0.072266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (29).prefab
-  artifactKey: Guid(5789fdd104b713c4f929425e70d7572d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (29).prefab using Guid(5789fdd104b713c4f929425e70d7572d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35aa6207064fcf8e4e703a51bc0e56a9') in 0.067541 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (80).prefab
-  artifactKey: Guid(b2ac7a170dd277546b6480174ab305e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (80).prefab using Guid(b2ac7a170dd277546b6480174ab305e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe022e7ba66c3f77ecae1c8431a067f') in 0.065936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (70).prefab
-  artifactKey: Guid(6c686da733391a643b04b11f07639a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (70).prefab using Guid(6c686da733391a643b04b11f07639a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3b386d53b4904ae8747c342625609d') in 0.066713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (44).prefab
-  artifactKey: Guid(75433554313639845880ecdd0398e73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (44).prefab using Guid(75433554313639845880ecdd0398e73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f8e7a3426cd1b52110db7ed4ff5b8d') in 0.078155 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (18).prefab
-  artifactKey: Guid(2148be545aabd1c4fa1390327151b0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (18).prefab using Guid(2148be545aabd1c4fa1390327151b0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba303194e3983601423143c78a16da1') in 0.079219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (96).prefab
-  artifactKey: Guid(4a720944a115d9447a4996ddaa03525b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (96).prefab using Guid(4a720944a115d9447a4996ddaa03525b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbed82d046922724a6d4f8b8c7e4d4bc') in 0.067565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (87).prefab
-  artifactKey: Guid(05a125fc25457ac41aad931e492af29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (87).prefab using Guid(05a125fc25457ac41aad931e492af29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c599127b6912429f4d3241fc162a0f') in 0.067016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (67).prefab
-  artifactKey: Guid(5a7df47b686253b409e4efbe6a3745bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (67).prefab using Guid(5a7df47b686253b409e4efbe6a3745bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0160d882ced88560f0c44132c686f6a') in 0.070804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (79).prefab
-  artifactKey: Guid(d1017599b656a27409b59197d065f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (79).prefab using Guid(d1017599b656a27409b59197d065f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e152b1ae8325735cf17bb7040f3a2e') in 0.071577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (83).prefab
-  artifactKey: Guid(1c3a24296a9515b45a93c356781e9da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (83).prefab using Guid(1c3a24296a9515b45a93c356781e9da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f1197e44ce43b0444149b3a48fb55d') in 0.069114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (90).prefab
-  artifactKey: Guid(286d16fffd5089345bfa77466ffbdeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (90).prefab using Guid(286d16fffd5089345bfa77466ffbdeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071aaee6fca623c24b3c385e97b57271') in 0.069830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (62).prefab
-  artifactKey: Guid(f4a032b5d6fd07740913b99389b565ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (62).prefab using Guid(f4a032b5d6fd07740913b99389b565ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69bafc35a661425d2461e376d27f3cf6') in 0.067502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (64).prefab
-  artifactKey: Guid(b5c99aa634d515145959929039ed473b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (64).prefab using Guid(b5c99aa634d515145959929039ed473b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8311878a6f23cc3892bfd6ba311883') in 0.075995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (25).prefab
-  artifactKey: Guid(fb29af382a73290468031a050dcc6f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (25).prefab using Guid(fb29af382a73290468031a050dcc6f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc106cf3ac6cb750af71eb0571b7f0a6') in 0.074146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (98).prefab
-  artifactKey: Guid(aeba40512eeb4e547ac7c0ca6f5ebcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (98).prefab using Guid(aeba40512eeb4e547ac7c0ca6f5ebcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13f1db753c04b95dd6be8e8718c0f51') in 0.066914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (36).prefab
-  artifactKey: Guid(5316090c50cf9cb498514e733e8542b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (36).prefab using Guid(5316090c50cf9cb498514e733e8542b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392b0b29e046b5d16e1241f1c0901191') in 0.068114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (54).prefab
-  artifactKey: Guid(c8b6235ca60803e4e91de6806a1adb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (54).prefab using Guid(c8b6235ca60803e4e91de6806a1adb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37ad31e25d76aea323034adb50a2124') in 0.065438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (3).prefab
-  artifactKey: Guid(2193cfa0c41207e4399c5aa3be1aa7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (3).prefab using Guid(2193cfa0c41207e4399c5aa3be1aa7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8369518a248a20604fefe17278281556') in 0.064338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (38).prefab
-  artifactKey: Guid(f711d69cc0ee1aa4dac239e5ab4e3ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (38).prefab using Guid(f711d69cc0ee1aa4dac239e5ab4e3ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b71e6a02db2be8b90606b0750466adf') in 0.067739 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (42).prefab
-  artifactKey: Guid(cf8a9e44694c0c64c8589ffd5c664145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (42).prefab using Guid(cf8a9e44694c0c64c8589ffd5c664145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9668e26a5b364dd5890ed289ad3ac446') in 0.070103 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (76).prefab
-  artifactKey: Guid(e4baef5eca788a14aa41d0dd1e9aa338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (76).prefab using Guid(e4baef5eca788a14aa41d0dd1e9aa338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fcb3d18d19c81ef440046d0def5df5') in 0.074574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (86).prefab
-  artifactKey: Guid(7af19914b4565cc4e9335e4f4901e00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (86).prefab using Guid(7af19914b4565cc4e9335e4f4901e00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65da05e5e1978e58576c2d0eacd67e3d') in 0.074670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (84).prefab
-  artifactKey: Guid(a107feb0bdde46a4b86e7f7166c1028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (84).prefab using Guid(a107feb0bdde46a4b86e7f7166c1028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80beea1bda1a0dd4198059d6c775cfb') in 0.068191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (52).prefab
-  artifactKey: Guid(301d043a9a2a7bb44906eb2fdefa87d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (52).prefab using Guid(301d043a9a2a7bb44906eb2fdefa87d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e4ad380b8daff24d0e651c20b10e5e') in 0.070038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (66).prefab
-  artifactKey: Guid(75d7cc2e31209bf47a742f25bd96146b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (66).prefab using Guid(75d7cc2e31209bf47a742f25bd96146b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a024c12cc66775b5341ece8325f01cf') in 0.076373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (5).prefab
-  artifactKey: Guid(77be1b8f1402d744cb067e39258fcedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (5).prefab using Guid(77be1b8f1402d744cb067e39258fcedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b9549d3ba1b35b781034fe062f093c') in 0.071389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (55).prefab
-  artifactKey: Guid(1490323e9a0175447b206a58cee44f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (55).prefab using Guid(1490323e9a0175447b206a58cee44f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5a4383e2f13f79c6aad685479197c0') in 0.069686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (31).prefab
-  artifactKey: Guid(b6665c1d1459a9648b89cb38e5090a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (31).prefab using Guid(b6665c1d1459a9648b89cb38e5090a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a381f893c902e3ba59d3fb61964cf0dc') in 0.080132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (27).prefab
-  artifactKey: Guid(12df7e1d6e59b664ab788e8bd58e7501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (27).prefab using Guid(12df7e1d6e59b664ab788e8bd58e7501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b80e72e875f0bd5e0fd124ca312846b') in 0.071225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (93).prefab
-  artifactKey: Guid(9a7944158da617d4391cc99b81b47759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (93).prefab using Guid(9a7944158da617d4391cc99b81b47759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4835c11718aba389e7fda41553263449') in 0.079305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (81).prefab
-  artifactKey: Guid(faba7cc91943b0a4896facd157e478ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (81).prefab using Guid(faba7cc91943b0a4896facd157e478ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22895dc4f70de654cc9f4dac813dceac') in 0.074219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (88).prefab
-  artifactKey: Guid(5a05396cc3a326e40a09d09054e09d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LUCAS/Blackthornprod/100 Fantasy Characters Pack/Prefabs/Character (88).prefab using Guid(5a05396cc3a326e40a09d09054e09d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a35f88fde7d3fdc000fe140b1142b1') in 0.077950 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
