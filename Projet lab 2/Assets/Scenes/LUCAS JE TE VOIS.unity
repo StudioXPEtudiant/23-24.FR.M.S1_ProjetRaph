@@ -379,7 +379,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   rb: {fileID: 542707141}
-  animator: {fileID: 0}
+  animator: {fileID: 1552026417}
   spriteRenderer: {fileID: 1552026416}
 --- !u!1 &807300883
 GameObject:

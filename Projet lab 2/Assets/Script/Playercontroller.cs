@@ -33,6 +33,7 @@ public class Playercontroller : MonoBehaviour
 
         float characterVelocity = Mathf.Abs(rb.velocity.x);
         animator.SetFloat("Speed", characterVelocity);
+        animator.SetBool("Jump", isGrounded);
     }
 
     private void Update()
